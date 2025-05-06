@@ -12,7 +12,7 @@
     <textarea name="content">{{ old('content') }}</textarea><br>
     @error('content') <p style="color:red;">{{ $message }}</p> @enderror
 
-    <button type="submit">Create</button>
+    <button type="submit">Create ++</button>
 </form>
 
 <a href="{{ route('posts.index') }}">Back</a>
