@@ -8,11 +8,11 @@
     Title: <input type="text" name="title" value="{{ old('title') }}"><br>
     @error('title') <p style="color:red;">{{ $message }}</p> @enderror
 
-    Content:<br>
+    Contents:<br>
     <textarea name="content">{{ old('content') }}</textarea><br>
     @error('content') <p style="color:red;">{{ $message }}</p> @enderror
 
-    <button type="submit">Create Btn ++</button>
+    <button type="submit">Create</button>
 </form>
 
 <a href="{{ route('posts.index') }}">Back</a>
